@@ -1,0 +1,664 @@
+
+    html {
+    scroll-behavior: smooth;
+}
+
+    
+    
+    body {
+        text-align:center;
+        width:100%;
+        margin:0% auto;
+        
+        }
+
+
+
+/*NAV BAR STARTS HERE*/
+
+   
+    
+   
+     
+
+
+    ul {
+        list-style-type:none;
+        background: rgb(0, 0, 0);
+        border-bottom: 1px solid orange;
+        top:0;
+        right: 0;
+        margin-top:0%;
+        padding:12px;
+        position:fixed;
+        width:100%;
+        text-align:right;
+        z-index: 100;
+        
+        
+       }
+
+    li {
+         display:inline-block;
+         background: rgb(0, 0, 0);
+      
+        
+
+        }
+    
+    li a {
+        text-decoration:none;
+        background: rgb(0, 0, 0);
+        color:white;
+        padding:12px;
+        padding-top:10px;
+        font-family:arial;
+        font-size:10px;
+        font-weight: bolder;
+        outline:none;
+              
+        
+          }
+
+
+    
+
+    li a:hover {
+        border-bottom:3px solid orange;
+        
+            
+    
+        }
+
+    li a:active {
+        border-bottom:3px solid orange;
+        }
+
+
+/*NAV ENDS HERE*/
+
+
+
+    .heading {
+        font-family:Baltica;
+        font-weight:bold;
+        display: inline-block;
+        background: black;
+        color: white;
+        padding: 10px;
+        font-size: 24px;
+        transform: rotateZ(-5deg);
+
+        }    
+
+
+
+
+    .slide {
+        
+        background-color:black;
+        background-image:url("https://serving.photos.photobox.com/95545740cc56c6606241a49681229baa3328d1e3c6125e6c06f7b45bab3012803b7d4c2b.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        text-align:center;
+        color:white;
+        box-shadow:2px 2px 20px 5px black;
+        
+        
+        }
+
+
+
+
+
+
+    .getintouch {
+        cursor:pointer;
+        background:none;
+        color:white;
+        border:2px solid orange;
+        width:contain;
+        padding:14px;
+        font-weight:bold;
+        transition:all 1s;
+        
+        
+        }
+
+
+    .getintouch:hover {
+        background:orange;
+        transform:scale(1.1);
+        margin-right:5px
+        }
+
+
+    .getintouch:active {
+        background:orange;
+        }
+
+
+        .viewmyprojects {
+        
+        cursor:pointer;
+        background:orange;
+        color:white;
+        border:2px solid orange;
+        width:contain;
+        padding:14px;
+        font-weight:bold;
+        transition:all 1s;
+        
+        }
+
+
+
+
+    .viewmyprojects:hover {
+        background:none;
+        transform:scale(1.1);
+        margin-left:20px
+        }
+
+
+    .viewmyprojects:active {
+        background:orange;
+        }
+
+/* IMAGE STYLES */
+
+    .louis {
+        width:150px;
+        height:150px;
+        border-radius:50%;
+        border:2px solid orange;
+        transition:all 1.5s
+        }
+
+
+
+    .louis:hover {
+        transform:scale(1.2);
+        }
+
+
+
+/* IMAGE STYLES ENDS */
+
+
+
+
+/* LOGO STARTS */
+
+
+        
+  
+
+
+    
+
+
+      
+/* Media Queries */     
+      
+    @media screen and (max-width:425px) {
+    .louis {
+        width:100px;
+        height:100px;
+    }
+        }
+
+    @media screen and (min-width:600px) {
+    li a {
+        font-size: 10px;
+    }
+        }
+
+    
+
+
+    @media screen and (min-width:720px) {
+        .slide {
+        
+        background-color:black;
+        background-image:url("https://serving.photos.photobox.com/95545740cc56c6606241a49681229baa3328d1e3c6125e6c06f7b45bab3012803b7d4c2b.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        text-align:left;
+        color:white;
+        box-shadow:2px 2px 20px 5px black;
+        padding-left: 10%;
+        font-size: 20px;
+        padding-top: 20%;
+        
+        }
+
+        .slide h6 {
+            font-size: 15px;
+        }
+    }
+  
+    
+      
+      
+    @media screen and (max-width:480px) {
+    h1 {
+        font-size:25px;
+      
+    }
+   }      
+   
+   
+   
+    @media screen and (max-width:480px) {
+    h6 {
+        font-size:10px;
+      
+    }
+   }      
+   
+   @media screen and (max-width:719px) {
+    .icons2 {
+            visibility: hidden;
+    }
+   }
+
+   @media screen and (min-width:720px) {
+    .icons2 {
+            display: block;
+            position: absolute;
+            right: 4%;
+           
+            visibility: visible;
+           
+
+    }   
+    }
+      
+      
+/* Media Queries end */
+
+/* Social Icons */
+
+
+.linkedin  {
+                font-weight:bold;
+               width:30px;
+                height:30px;
+                border-radius:50%;
+                text-align:center;
+             font-size:25px; 
+             color:orange;
+             border:2px solid orange;      
+                
+            }
+            
+       .icons p, .icons2 p {
+          transition:all 0.5s;     display:inline-block  ;
+           margin:0.5%;
+           cursor:pointer;
+           outline:none;
+       }
+            
+            
+.github  {
+                font-weight:bold;
+               width:30px;
+                height:30px;
+                border-radius:50%;
+                text-align:center;
+             font-size:25px; 
+             color:orange;
+             border:2px solid orange;   
+             font-family: serif;   
+                
+            }
+
+
+
+.facebook  {
+                font-weight:bold;
+               width:30px;
+                height:30px;
+                border-radius:50%;
+                text-align:center;
+             font-size:25px; 
+             color:orange;
+             border:2px solid orange;   
+             
+                
+            }
+
+    
+
+  .icons p:hover, .icons2 p:hover, #about p:hover {
+       background:orange;
+       color:white;
+       outline:none;
+   }
+
+/* Social Icons ends */
+
+
+
+
+/* About */
+
+    #about {
+        text-align: center;
+        background: orange;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right: 15%;
+        padding-left: 15%;
+        transition:all 1s;
+        
+        
+        
+    }
+
+
+
+   
+            
+            
+        
+    
+
+
+/* Contact */
+
+    #contact {
+        background: rgb(40, 38, 38);
+        
+        
+    }
+
+
+    #contact h4 {
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    #contact h1 {
+        color: orange;
+        font-size:40px
+    }
+
+
+@media screen and (max-width:480px) 
+{
+    #contact h1 {
+        color: orange;
+        font-size:25px
+    }
+
+    
+
+}
+
+
+
+    .send {
+        background: rgb(58, 54, 54);
+        width: 90%;
+        margin: auto;
+     
+    }
+
+
+    @media screen and (min-width:768px)
+{
+    .send {
+        background: rgb(58, 54, 54);
+        width: 60%;
+        margin: auto;
+     
+    }
+    
+}
+
+
+    input, textarea {
+        width:70%;
+        padding:20px;
+        padding-left: 0px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid white;
+        transition: all 1s;
+        color:white;
+    }
+
+
+    textarea {
+        width:70%;
+        height: 200px;
+        padding:20px;
+        padding-left: 0px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid white;
+    }
+
+
+
+
+    input:focus, textarea:focus {
+        border-bottom: 2px solid orange;
+        outline: none;
+    }
+
+    .submit {
+        cursor:pointer;
+        background:orange;
+        color:white;
+        border:2px solid orange;
+        width:50%;
+        padding:14px;
+        font-weight:bold;
+        transition:all 0.5s;
+        
+        
+        }
+
+
+    .submit:hover {
+        background:orange;
+        transform:scale(1.1);
+        
+        }
+
+
+    .submit:active {
+        background:orange;
+        }
+
+    .contacticon {
+        border-radius:50%;
+        width:60px;
+        height:60px;
+        box-shadow:1px 1px 20px 1px black;
+        position:fixed;
+        bottom:5%;
+        border:none;
+        right:5%;
+        transition:all 0.5s;
+        outline:none;
+        z-index:80;
+
+    }
+    
+    .contacticon {
+        background:none;
+        outline:none;
+    }
+
+
+    .contacticon:active {
+        
+        transform:rotate(180deg) scale(1.1);
+    }
+
+
+
+   
+
+    .louis2 {
+        float:left;
+        width:30%;
+        background:black;
+        color:gray;
+        text-align: left;
+        padding-left:10%;
+        padding-right:10%;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 5%;
+        
+    }
+
+    .others  {
+        float:left;
+        width:30%;
+        background:black;
+        color:gray;
+        text-align: left;
+        padding-left:10%;
+        padding-right:10%;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 5%;
+        
+    }
+
+    @media screen and (max-width:799px) {
+        .others, .louis2 {
+        float:left;
+        width:90%;
+        background:black;
+        color:gray;
+        text-align: left;
+        padding-left:5%;
+        padding-right:5%;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 5%;
+        
+    }
+    }
+
+    a {
+        text-decoration: none;
+        
+    }
+
+    .footer p {
+        line-height: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .skill1, .skill2, .skill3 {
+        width: 32.3%;
+       background:white;
+        float: left;
+        text-align: center;
+        
+        font-family: arial;
+        box-shadow: 0.5px 0.5px 20px 1px gray;
+        padding-bottom:10%;
+        height:auto;
+        
+        
+       
+    }
+
+
+    #skills img {
+        width:100px;
+        height:100px;
+        border-radius: 50%;
+    }
+
+
+
+    .skill1 {
+        margin-left: 1.5%;
+        border-radius: 25px 0px 0px 25px
+       
+    }
+
+
+    .skill3 {
+        margin-right: 1.5%;
+        border-radius: 0px 25px 25px 0px
+    }
+
+
+
+    #skills {
+        width:100%;
+background:transparent ;
+position:relative ;
+    z-index:50;
+    top:-120px;
+    overflow: auto;
+      
+    }
+
+
+    #skills p {
+        color: rgb(106, 106, 107);
+        
+       
+    }
+
+   
+
+    .footer a {
+        color:orange;
+    }
+
+
+    @media screen and (max-width:600px) {
+        .skill1, .skill2, .skill3 {
+        width: 90%;
+        margin-left: 5%;
+       margin-right: 5%;
+       margin-bottom: 5%;
+       border-radius: 25px 25px 25px 25px;
+       padding-bottom: 0;
+       height:auto;
+       
+       
+    }
+
+        
+  
+    
+    
+    
+    
+    @media screen and (max-width:959px) {
+        .skill1, .skill2, .skill3 {
+        width: 80%;
+        margin-left: 10%;
+       margin-right: 10%;
+       margin-bottom: 5%;
+       border-radius: 25px 25px 25px 25px;
+       padding-bottom: 0;
+       height:auto;
+       
+       
+    }
+
+
+
+
+
+    }
+
+#about {
+    position:relative ;
+    z-index:10;
+}
+
